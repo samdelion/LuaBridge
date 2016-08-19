@@ -39,6 +39,12 @@
 #include <string>
 #include <typeinfo>
 
+extern "C" {
+#include "lua.h"
+#include "lauxlib.h"
+#include "lualib.h"
+}
+
 #define LUABRIDGE_MAJOR_VERSION 2
 #define LUABRIDGE_MINOR_VERSION 0
 #define LUABRIDGE_VERSION 200
